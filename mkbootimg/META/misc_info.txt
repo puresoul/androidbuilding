@@ -1,0 +1,17 @@
+recovery_api_version=3
+fstab_version=2
+blocksize=131072
+boot_size=12582912
+recovery_size=12582912
+tool_extensions=device/lge/d605/../common
+default_system_dev_certificate=build/target/product/security/testkey
+extra_recovery_keys= build/target/product/security/cm build/target/product/security/cm-devkey build/target/product/security/bacon
+mkbootimg_args=--ramdisk_offset 0x02000000
+use_set_metadata=1
+multistage_support=1
+update_rename_support=1
+ota_script_path=./build/tools/releasetools/ota_from_target_files
+fs_type=ext4
+system_size=1811939328
+userdata_size=4294967296
+selinux_fc=/opt/android/cm11/out/target/product/d605/root/file_contexts

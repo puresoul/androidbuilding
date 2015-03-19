@@ -1,4 +1,9 @@
 # androidbuilding
 
 This repository is dedicated to rom building.
-That means to have publicly available wiki and bug-tracking.
+
+binutils - few usefull bins for android building
+
+mkbootimg - yet another way of making boot.img
+
+zipinstall - installable zip archive with shell
